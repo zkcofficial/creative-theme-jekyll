@@ -1077,8 +1077,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #FF0000;
-  background-color: #FF0000;
+  color: #0000FF;
+  background-color: #0000FF;
 }
 input,
 button,
@@ -1089,12 +1089,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #0000FF;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #0000FF;
   text-decoration: underline;
 }
 a:focus {
@@ -1126,8 +1126,8 @@ img {
   height: auto;
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #0000FF;
+  border: 1px solid #0000FF;
   border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
