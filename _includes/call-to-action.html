@@ -1,22 +1,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-  .motherctasection {
-    display: flex;
-}
-  .motherctasection > .firstborn {
-    width: 48%;
-    padding-top: 2rem;
-    padding-right: 60px;
-
+  .firstborn {
+    float: left;
+  width: 40%;
+  padding: 0 20px;
+  overflow: hidden;
   }
-  .motherctasection > .secondborn {
-    width: 48%;
-    text-align: left;
+.secondborn {
+      float: left;
+  width: 40%;
+  padding: 10px 15px;
+  margin-top: 7px;
   } 
   body {
     text-align: center;
   }
+
+  @media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
 </style>
 <!--
 <section class="bg-primary" id="about">
@@ -48,10 +64,12 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
 
-                <div class="motherctasection">
                 <div class="firstborn">
                     <img src="img/portfolio/ctaimg1.jpg" width="270px" height="300px">
                 </div>
+
+
+              
                 <div class="secondborn">
                   <h2>NEW: The AI Threat Modeling Field Guide</h2>
 
@@ -62,7 +80,6 @@
                   <p>A critical guide for all AI practitioners. Buy it here</p>
 
                   <a target="_blank" href="https://buy.stripe.com/dRmfZh7CbgND0tIeMx14400" class="btn btn-default btn-xl">Get the guide →</a>
-                </div>
                 </div>
                 
             </div>
